@@ -1,0 +1,66 @@
+.container {
+  max-width: 1440px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.column {
+  padding: 50px;
+
+  &:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  &:nth-child(3) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  h1 {
+    margin-top: $column-heading-margin;
+    margin-bottom: $column-heading-margin;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: $font-bold;
+    font-size: 2.2rem;
+    color: #fff;
+  }
+
+  p {
+    color: $transparent-white;
+    margin-bottom: 100px;
+  }
+
+  &#sedans {
+    background-color: $bright-orange;
+    button {
+      color: $bright-orange;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &#suvs {
+    background-color: $dark-cyan;
+    button {
+      color: $dark-cyan;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &#luxury {
+    background-color: $very-dark-cyan;
+    button {
+      color: $very-dark-cyan;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+button,
+.button {
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: $font-bold;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+
+  &:hover {
+    background: transparent;
+    outline: 1px solid #fff;
+  }
+}
