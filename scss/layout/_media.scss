@@ -1,0 +1,15 @@
+@media (max-width: 720px) {
+  .container {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .column {
+    &:nth-child(1) {
+      border-radius: 0;
+    }
+    &:nth-child(3) {
+      border-radius: 0;
+    }
+  }
+}
